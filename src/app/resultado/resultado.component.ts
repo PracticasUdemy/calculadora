@@ -6,6 +6,6 @@ import { Component, Input } from '@angular/core';
   styleUrls: ['./resultado.component.css']
 })
 export class ResultadoComponent {
-  @Input() resultado: number;
+  @Input() resultado: number = 0;
 
 }
